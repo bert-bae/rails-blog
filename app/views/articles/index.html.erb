@@ -1,0 +1,7 @@
+<div id="root">
+  <h1>Articles</h1>
+  <%= @articles.each do |a| %>
+  <h3><%= a.title %></h3>
+  <p><%= a.body %></p>
+  <% end %>
+</div>
