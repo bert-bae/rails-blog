@@ -28,3 +28,8 @@ div.error {
     margin: 5px;
   }
 }
+
+textarea,
+input {
+  box-sizing: border-box;
+}

@@ -1,6 +1,9 @@
 <div id="root">
   <h1>Articles</h1>
+  Our blog has <%= Article.public_count %> articles and counting!
+
   <% @articles.each do |a| %>
+  <% unless a.archived? %>
   <div class="article-group">
     <h3><%= a.title %></h3>
     <p><%= a.body %></p>
@@ -8,6 +11,7 @@
     <%= link_to "Edit", edit_article_path(a), class: "article-action" %>
     <%= link_to "Delete", article_path(a), class: "article-action", method: :delete, data: {confirm: "Are you sure?", disable_with: "Processing..."} %>
   </div>
+  <% end %>
   <% end %>
 
   <div class="create-new">
