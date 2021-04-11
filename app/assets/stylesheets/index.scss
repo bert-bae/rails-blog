@@ -21,3 +21,10 @@ div {
   box-sizing: content-box;
   margin: 0;
 }
+
+div.error {
+  p {
+    color: red;
+    margin: 5px;
+  }
+}
