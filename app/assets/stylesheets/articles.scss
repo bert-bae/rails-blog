@@ -20,3 +20,25 @@
     overflow: auto;
   }
 }
+
+.article-group {
+  padding: 8px 0;
+}
+
+.article-actions {
+  a {
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+  }
+}
+
+.create-new {
+  border-top: 1px solid black;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px 0;
+}
