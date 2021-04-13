@@ -1,24 +1,9 @@
-# README
+# Rails Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails tutorial on getting started with a blog application.
 
-Things you may want to cover:
+1. Install ruby, rails, and other dependencies.
+2. Run `bin/rails server`
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Create, edit, and delete articles. Leave comments on articles.
+Simple review of Rails patterns.
